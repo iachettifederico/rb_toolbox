@@ -1,7 +1,9 @@
-* RbToolbox [[https://secure.travis-ci.org/eifion/url_formatter.png]]
-
+* RbToolbox
+[[https://travis-ci.org/iachettifederico/rb_toolbox][Build State]]: [[https://travis-ci.org/iachettifederico/rb_toolbox.svg]]
 
 This gem contains some features I use all the time and aren't part of the standard library.
+
+
 
 ** Usage
 
