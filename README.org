@@ -1,4 +1,5 @@
-* RbToolbox
+* RbToolbox [[https://secure.travis-ci.org/eifion/url_formatter.png]]
+
 
 This gem contains some features I use all the time and aren't part of the standard library.
 
