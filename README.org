@@ -1,0 +1,51 @@
+* RbToolbox
+
+This gem contains some features I use all the time and aren't part of the standard library.
+
+** Usage
+
+*** Structs
+I like my structs to be initialized using named instead of positional arguments.
+
+=RbToolbox::Struct= uses named arguments.
+
+It has all the features you may expect from a =::Struct=
+
+To create a Struct:
+#+BEGIN_SRC ruby
+require "rb_toolbox/struct"
+Point = RbToolbox::Struct.new(:x, :y)
+
+p = Point.new(y: 5, x: 4)
+
+p.x # => 4
+p.y # => 5
+#+END_SRC
+
+#+results:
+
+*** String helpers
+
+** Installation
+
+Add this line to your application's Gemfile:
+
+    gem 'rb-toolbox'
+
+And then execute:
+
+    $ bundle
+
+Or install it yourself as:
+
+    $ gem install rb-toolbox
+
+
+
+** Contributing
+
+1. Fork it ( https://github.com/[my-github-username]/rb-toolbox/fork )
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create a new Pull Request
