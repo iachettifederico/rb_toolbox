@@ -24,7 +24,7 @@ p.y # => 5
 
 #+results:
 
-*** String helpers
+*** TODO String helpers (TODO)
 
 ** Installation
 
